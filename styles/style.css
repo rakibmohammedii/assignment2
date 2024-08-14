@@ -7,7 +7,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(46, 45, 45);
 
     
     /* background: #000; */
@@ -387,3 +387,143 @@ table, th, td {
     align-items: center;
     justify-content: center;
   }
+
+
+   /* Meet our team  style starts */
+   
+
+  /* Trainer section styles */
+  
+  /* Trainer section styles */
+  
+
+  .pic-trainer{
+    position: relative;
+    
+  }
+  .trainer-text{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -4%;
+    
+
+  }
+  .trainer-pic-parent{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1) ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 40px 80px;
+    
+    
+    
+
+  }
+ 
+  .tpic-1 img{
+    width:327px;
+    height: 272px;
+    border-radius: 12px;
+  }
+  .tpic-1p{
+    font-weight: normal;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+.tpic-1h4{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #fefdfd;
+}
+
+
+ 
+
+
+
+      /* Meet our team  style ends */
+
+
+      /* warm up styles starts */
+
+      
+/* <!-- train-up section --> */
+.how-to-container{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* warm up styles ends */
+
+
+/* footer styles */
+.footer{
+    padding: 0 0px ;
+   
+}
+.footer-title{
+    font-weight: 800;
+    font-size: 5rem;
+    color: rgb(230, 83, 60);
+    width: 256px;
+    margin-bottom: 20px;
+}
+.footerdes{
+    width: 406px;
+    text-align: justify;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+   
+    align-items: center;
+    padding: 70px 0;
+}
+.sec-footer{
+    display: flex;
+    gap: 90px;
+}
+.footer-li{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    list-style: none;
+}
+.footer-get{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 60px;
+
+}
+.footer-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: px;
+   
+}
+.hr{
+    margin-bottom: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.f-footer{
+    max-width: 1280px;
+    margin-top: 50px;
+    padding: 0px 100px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+

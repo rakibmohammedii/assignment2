@@ -67,10 +67,53 @@
     .bmi-main{
         flex-direction: column;
         gap: 35px;
+        width: 100%;
     }
     .bmih2p{
         margin: 8px 30px;
        
     }
+    .trainer-pic-parent{
+        
+        gap: 10px;
+        padding: 10px;
+        margin: 40px 10px;
+    }
+    .tpic-1 img{
+        width:180px;
+        height: 202px;
+        border-radius: 12px;
+        width: 100%;
+      }
+      .tpic-1p{
+       
+        font-size: .6rem;
+      }
+    .tpic-1h4{
+    
+        font-size: 1rem;
+    }
+    .trainer-text{
+        position: absolute;
+        margin-left: 1%;
+        margin-top: -9%;
+        
+    
+      }
+      .how-to-container{
+        flex-direction: column;
+        margin: 5px;
+        padding: 8px;
+      }
+      .main-footer{
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+    }
+    
+        
+        
+        
+    
    
 }

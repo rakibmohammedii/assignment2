@@ -36,6 +36,7 @@
 /* header styles starts */
 header{
     padding: 40px 60px;
+    max-width: 1200px;
 }
 
 
@@ -247,6 +248,7 @@ header{
 }
 .first-main{
     padding:60px 60px ;
+    max-width: 1200px;
 }
 
 
@@ -258,7 +260,130 @@ header{
 
 /* Run an extra mile easily  style starts */
 
+.runp,.runh2,.renbtn,.trainh2,.trainp{
+    margin-bottom: 30px;
+    text-align: justify;
+    background: none;
+}
+.run-wrapper{
+    width: 48%;
+}
+.run-parent img{
+    width: 100%;
+    border-radius: 18px;
+}
+.run{
+    flex-direction: column;
+    background: none;
+    align-items: center;
+    justify-content: space-around;
+    
+
+} 
+.run-parent{
+    max-width: 1200px;
+    padding: 41px 35px 40px 55px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin: 60px;
+    display: flex;
+    
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    
+}
+
 
 /* 
 Run an extra mile easily  style ends */
 
+
+
+/* <!-- BMI calculator section  style starts */
+
+.bmih2p{
+    margin: 88px 300px;
+   
+}
+.bmih2,.bmip{
+    text-align: justify;
+}  
+.bmi-main{
+        background:rgba(34, 34, 34, .9);
+      
+        margin-bottom: 88px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+      
+    }
+    .bbmi{
+        width: 48%;
+        background: none;
+        
+    }
+    .bmi-clac{
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 25px 20px;
+         
+     
+     }
+     .factor{
+
+        height: 40px;
+        width: 500px;
+    
+    
+    }
+    .sex{
+        height: 40px;
+        width: 210px;
+        /* border-radius: 12px; */
+    }
+    .main-bmi{
+        padding: 20px;
+    }
+  /* table design */
+.form-table{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+
+}
+td{
+    font-weight: 400;
+    font-size: .9prem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    
+}
+th{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+table, th, td {
+    border: 0.5px solid rgba(90, 88, 88, 0.1);
+  }
+  .bmi-section{
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .chart{
+    align-items: center;
+    text-align: center;
+    background: transparent;
+  }
+  .table{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }

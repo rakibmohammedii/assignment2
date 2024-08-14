@@ -66,7 +66,7 @@
         
       </div>
   </header>
-  <main>
+  <>
     <!-- change Your Habits starts --> -->
     
 
@@ -105,17 +105,102 @@
 
         <!-- Run an extra mile easily starts -->
           <div class="run-parent">
-            <div class="run">
+            <div class="run run-wrapper">
               <h2 class="titlefont runh2">Run an Extra 
                 Mile Easily</h2>
               <p class="desfont runp">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
               <button class="join-btn runbtn">Join Now</button>
             </div>
-             <img src="./images/run.jpg" alt="" class="running-pic">
+            <div class="run-wrapper"> <img src="./images/run.jpg" alt="" class="running-pic"></div>
            </div>
+        
 
            
         <!-- Run an extra mile easily ends -->
+
+   <!-- BMI calculator section  starts-->
+      <div class="bmi-section">
+        <div class="bmih2p">
+          <h2 class="titlefont bmih2">BMI Calculator</h2>
+            <p class="desfont bmip">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+         <!-- table  -->
+        <div class="bmi-main">
+          
+           
+            <div class="chart bbmi">
+              <h2 class="form-table">BMI Calculator Chart</h2>
+              <table class="table ">
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr>
+                  <td>
+                    Below 18.5
+                  </td>
+                  <td>
+                    Underweight
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    18.5-24.9
+                  </td>
+                  <td>
+                    Healthy
+                  </td>
+                </tr>
+                <tr>
+                  <td>25.0-29.9</td><td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0</td><td>Obses</td>
+                </tr>
+              </table>
+
+            </div>
+            <div class="bmi-form bbmi">
+              <h2 class="form-table">Calculate your BMI</h2>
+              <p class="desfont">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+              <form class="main-bmi">
+                <div class="height-weight">
+                  <input type="text" placeholder="Height/cm" class="bmi-clac">
+                <input type="text" placeholder="Weight/kg" class="bmi-clac">
+                </div>
+                
+                <div class="sex-age">
+                  <input type="text" placeholder="Age" class="bmi-clac">
+                  <!-- <input type="text" placeholder="sex" op> -->
+              
+                
+                <!-- <input type="text" placeholder="Select an activity factor" class="bmi-clac"> -->
+                  <select name="sex" id="" class="bmi-clac sex">
+                  
+                  
+                  <option value="sex" >Sex    </option>
+
+                  </select>
+                </div>
+
+                <br>
+                <select name="factor" id="" class="factor bmi-clac">
+                  
+                  
+                  <option value="factor" >Select an activity factor   </option>
+
+                  </select><br>
+
+
+                <button class="join-btn">Calculate</button>
+                
+              </form>
+            </div>
+        </div>
+    
+    </div>
+<!-- BMI calculator section  ends-->
+  
     
     
   </main>

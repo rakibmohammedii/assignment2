@@ -41,6 +41,36 @@
         margin: 500px 0px 0px 0px;
         padding: 10px;
     }
-    
+    .run-wrapper{
+        width: 48%;
+    }
+    .run-parent img{
+        width: 100%;
+    }
+    .run-parent{
+        padding: 15px 15px;
+        margin: 10px;  
+        align-items:center;
+    }
+    .runh2{
+        font-size: 2rem;
+        margin:3px 0;
+    }
+    .runp{
+        font-size: .5rem;
+        margin-bottom: 5px;
+    }
+    .runbtn{
+        padding: .6rem 1rem;
+        font-size: .9rem;
+    }
+    .bmi-main{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .bmih2p{
+        margin: 8px 30px;
+       
+    }
    
 }

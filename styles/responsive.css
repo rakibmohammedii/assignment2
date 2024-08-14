@@ -11,5 +11,36 @@
     .menu-items{
         display: none;
     }
+    .heading{
+        flex-direction: column;
+        
+        
+    }
+    .box-1{
+        
+        margin-left:50%;
+        bottom: -130%;
+    
+    }
+    .box-2{
+        margin-left: 10%;
+        bottom: -190%;
+
+    }
+    .picture{
+        padding-left: 20%;
+    }
+
+    .ex-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    
+    }
+    .first-main{
+        margin: 500px 0px 0px 0px;
+        padding: 10px;
+    }
+    
    
 }

@@ -7,14 +7,35 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: black;
+    background-color: rgb(27, 25, 25);
 
     
     /* background: #000; */
 }
+
+/* shared styles
+ */
+ .titlefont{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+.desfont{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+/* shared styles ends */
+
+
 /* header styles starts */
 header{
-    padding: 40px 40px;
+    padding: 40px 60px;
 }
 
 
@@ -72,4 +93,172 @@ header{
     color: aliceblue;
 }
 /* nav styles ends */
+
+/* banner styles  starts*/
+.title{
+    margin-top: 100px;
+}
+
+.title-get{
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    width: 33rem;
+    height: 17.5rem;
+    line-height: 120%;
+    
+    
+}
+.shape{
+    font-size: 8rem;
+    font-weight: 400;
+    font-family: miama;
+    background: transparent;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: .7rem 0px;
+    width: 30rem;
+}
+.app{
+    padding: .9rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+    border-radius: 2.4rem;
+    border: 1px solid rgb(237, 232, 232);
+    background: transparent;
+}
+.join-btn{
+    font-size:1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    padding:.9rem 2.7rem;
+    border-radius: 3rem;
+    border: 1px solid rgb(230, 83, 60);
+}
+.picture{ 
+    max-width: 19rem;
+    max-height:3rem ;
+
+}
+.heading{
+    display:flex;
+    gap: 15rem;
+    
+}
+.box-1h2{
+    font-size:2rem;
+    font-weight: 900;
+    background: none;
+}
+.free{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    background: none;
+}
+.box-1{
+    padding: .7rem 1.3rem 1.2rem 1.3rem;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: .7rem;
+    backdrop-filter: blur(1.4rem);
+    background: rgba(255, 255, 255, 0.1);
+    
+    margin-left: 78%;
+    width: 11rem;
+    height: 5.4rem;
+    position: absolute;
+    bottom: 46%;
+    color: #fff;
+
+}
+.tutorial{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    background: none;
+}
+.box-2h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: none;
+}
+.box-2child{
+    background: none;
+}
+.box-2{
+    padding: .7rem 1.3rem 1.2rem 1.3rem;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: .7rem;
+    backdrop-filter: blur(1.4rem);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 50%;
+    width: 13rem;
+    height: 5.4rem;
+    position: absolute;
+    bottom:-3%;
+    color: #fff;
+    display: flex;
+
+}
+.circle{
+
+    margin-top: 1rem;
+    margin-right: .7rem;
+    background-color: rgb(230, 83, 60);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+/* banner styles ends */
+
+
+ /* change Your Habits style starts */
+ .ex-items{
+    display: flex;
+    margin: 20px ;
+ }
+ .ex-items img{
+    border-radius: 50%;
+    padding: auto;
+    height: 180px;
+    width: 250px;
+    margin-top: 58px;
+}
+.ex-items h5{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+
+}
+.ex-items p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.first-main{
+    padding:60px 60px ;
+}
+
+
+
+
+
+/* change Your Habits style ends  */
+
+
+/* Run an extra mile easily  style starts */
+
+
+/* 
+Run an extra mile easily  style ends */
 

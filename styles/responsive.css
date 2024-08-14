@@ -1,0 +1,15 @@
+@media screen and (max-width:576px){
+    .humberger-menu{
+        display: block;
+
+    }
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-items{
+        display: none;
+    }
+   
+}
